@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 50px;
+	background: url(wall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box{
+	width: 500px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 45px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: antiquewhite;
+	font-family: 'Century Gothic' , sans-serif ;
+}
+
+.box h1{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+.box h5{
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.box p{
+	text-align: justify;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.box li{
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+}
+.box li a {
+	color: red;
+	text-decoration: underline;
+	font-size: 22px;
+}
